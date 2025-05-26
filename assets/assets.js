@@ -41,7 +41,10 @@ import sm_controller_image from "./sm_controller_image.png";
 import jbl_soundbox_image from "./jbl_soundbox_image.png";
 import boy_with_laptop_image from "./boy_with_laptop_image.png";
 import checkmark from "./checkmark.png";
-import card from "./card_1.jpg";
+import card_one from "./card_one.jpg";
+import banner_one from "./banner_one.png";
+import banner_two from "./banner_two.png";
+import banner_three from "./banner_three.png";
 import product_details_page_apple_earphone_image1 from "./product_details_page_apple_earphone_image1.png";
 import product_details_page_apple_earphone_image2 from "./product_details_page_apple_earphone_image2.png";
 import product_details_page_apple_earphone_image3 from "./product_details_page_apple_earphone_image3.png";
@@ -71,6 +74,9 @@ export const assets = {
   star_icon,
   redirect_icon,
   star_dull_icon,
+  banner_one,
+  banner_two,
+  banner_three,
   header_headphone_image,
   header_playstation_image,
   header_macbook_image,
@@ -81,7 +87,7 @@ export const assets = {
   venu_watch_image,
   upload_area,
   cannon_camera_image,
-  card,
+  card_one,
   sony_airbuds_image,
   asus_laptop_image,
   projector_image,
@@ -189,9 +195,9 @@ export const productsDummyData = [
   {
     _id: "67a1f4e43f34a77b6dde9144",
     userId: "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    name: "Apple AirPods Pro 2nd gen",
+    name: "Versatile Shirt-Sweater Hybrid",
     description:
-      "Apple AirPods Pro (2nd Gen) with MagSafe Case (USB-C) provide excellent sound, active noise cancellation, and a comfortable fit. The USB-C case ensures quick charging, and they pair seamlessly with Apple devices for an effortless audio experience.",
+      "Soft fabric, a neat collar, and a relaxed fit make this piece perfect for everyday wear or layered looks. Features button closure, cuffed sleeves, and side slits.",
     price: 499.99,
     offerPrice: 399.99,
     image: [
@@ -207,9 +213,9 @@ export const productsDummyData = [
   {
     _id: "67a1f52e3f34a77b6dde914a",
     userId: "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    name: "Bose QuietComfort 45",
+    name: "Soft Cotton T-Shirt",
     description:
-      "The Bose QuietComfort 45 headphones are engineered for exceptional sound quality and unparalleled noise cancellation. With a 24-hour battery life and comfortable, lightweight design, these headphones deliver premium audio for any environment. Whether on a flight, in the office, or at home, the Bose QC45 blocks out distractions, offering an immersive listening experience.",
+      "Comfortable regular fit, short sleeves, and a crew neckline. Perfect for everyday wear and easy to pair with any outfit.",
     price: 429.99,
     offerPrice: 329.99,
     image: [
