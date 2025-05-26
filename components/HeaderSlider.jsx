@@ -10,7 +10,7 @@ const HeaderSlider = () => {
       offer: "Limited Time Offer 30% Off",
       buttonText1: "Buy now",
       buttonText2: "Find more",
-      imgSrc: assets.banner_one,
+      imgSrc: assets.banner,
     },
     {
       id: 2,
