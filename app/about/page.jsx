@@ -51,7 +51,7 @@ const About = () => {
                 src={card.imgSrc.src}
                 alt="qwerty"
               />
-              <div className="absolute inset-0 flex flex-col justify-center items-center p-4 transition duration-300 ease-in-out bg-gradient-to-b from-transparent to-teal-900/80 opacity-0 group-hover:opacity-100">
+              <div className="absolute inset-0 flex flex-col justify-center items-center p-4 transition duration-300 ease-in-out bg-gradient-to-b from-transparent to-pink-500/80 opacity-0 group-hover:opacity-100">
                 <h3 className="text-lg font-semibold mb-2 text-pink-400 group-hover:text-white transition">
                   {card.title}
                 </h3>
