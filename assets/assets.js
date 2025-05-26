@@ -42,7 +42,7 @@ import jbl_soundbox_image from "./jbl_soundbox_image.png";
 import boy_with_laptop_image from "./boy_with_laptop_image.png";
 import checkmark from "./checkmark.png";
 import card_one from "./card_one.jpg";
-import banner_one from "./banner_one.png";
+import banner from "./banner.png";
 import banner_two from "./banner_two.png";
 import banner_three from "./banner_three.png";
 import product_details_page_apple_earphone_image1 from "./product_details_page_apple_earphone_image1.png";
@@ -74,7 +74,7 @@ export const assets = {
   star_icon,
   redirect_icon,
   star_dull_icon,
-  banner_one,
+  banner,
   banner_two,
   banner_three,
   header_headphone_image,
