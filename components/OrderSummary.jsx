@@ -1,6 +1,7 @@
 import { addressDummyData } from "@/assets/assets";
 import { useAppContext } from "@/context/AppContext";
 import React, { useEffect, useState } from "react";
+import Link from "next/link";
 
 const OrderSummary = () => {
   const { currency, router, getCartCount, getCartAmount } = useAppContext();
@@ -18,7 +19,12 @@ const OrderSummary = () => {
     setIsDropdownOpen(false);
   };
 
-  const createOrder = async () => {};
+  // const createOrder = async () => {
+  //   if (!selectedAddress) {
+  //     alert("Please login!");
+  //     return;
+  //   }
+  // };
 
   useEffect(() => {
     fetchUserAddresses();
@@ -96,7 +102,7 @@ const OrderSummary = () => {
               placeholder="Enter promo code"
               className="flex-grow w-full outline-none p-2.5 text-gray-600 border"
             />
-            <button className="bg-orange-600 text-white px-9 py-2 hover:bg-orange-700">
+            <button className="bg-pink-600 text-white px-9 py-2 hover:bg-pink-700">
               Apply
             </button>
           </div>
@@ -132,11 +138,8 @@ const OrderSummary = () => {
           </div>
         </div>
       </div>
-      <button
-        onClick={createOrder}
-        className="w-full bg-orange-600 text-white py-3 mt-5 hover:bg-orange-700"
-      >
-        Place Order
+      <button className="w-full bg-pink-600 text-white py-3 mt-5 hover:bg-pink-700">
+        <Link href="/login"> Place Order</Link>
       </button>
     </div>
   );
