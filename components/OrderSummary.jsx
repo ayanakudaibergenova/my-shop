@@ -1,6 +1,5 @@
 import { addressDummyData } from "@/assets/assets";
 import { useAppContext } from "@/context/AppContext";
-import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
 const OrderSummary = () => {
@@ -97,7 +96,7 @@ const OrderSummary = () => {
               placeholder="Enter promo code"
               className="flex-grow w-full outline-none p-2.5 text-gray-600 border"
             />
-            <button className="bg-white text-gray-800 px-9 py-2 hover:bg-gray-100 border">
+            <button className="bg-orange-600 text-white px-9 py-2 hover:bg-orange-700">
               Apply
             </button>
           </div>
@@ -133,19 +132,12 @@ const OrderSummary = () => {
           </div>
         </div>
       </div>
-
-      {/* <button
+      <button
         onClick={createOrder}
-        className="w-full bg-white text-gray-800 py-3 mt-5 hover:bg-gray-100 border"
+        className="w-full bg-orange-600 text-white py-3 mt-5 hover:bg-orange-700"
       >
         Place Order
-      </button> */}
-      <Link
-        className="w-full bg-white text-gray-800 py-3 mt-5 hover:bg-gray-100 border"
-        href="/login"
-      >
-        Place Order
-      </Link>
+      </button>
     </div>
   );
 };
